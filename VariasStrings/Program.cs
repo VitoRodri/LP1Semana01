@@ -6,6 +6,12 @@ namespace VariasStrings
     {
         static void Main(string[] args)
         {
+            double xx=0.12345;
+            int ii=18;
+            Console.WriteLine("{0:f2}\u000A",xx);
+            Console.WriteLine("{0:p1}\u000A",xx);
+            Console.WriteLine("{0:x}\u000A",ii);
+            Console.WriteLine("{0:c}\u000A",ii);
             string a="This is the \u0009 first string \u000A";
             string b=@"This is the \t second string \n";
             string c="\"This is the third string\"";
