@@ -11,6 +11,16 @@ namespace VariasStrings
             string c="\"This is the third string\"";
             string d=@"""This is the fifth string""";
             Console.WriteLine(a+"\u000A"+b+"\u000A"+c+"\u000A"+d);
+
+            int x=5;
+            int y=5;
+            string e="what comes after d "+4;
+            string f="Fantastic!!!!<"+3;
+            string g=$"X is a number just like{x}";
+            string h=$"Y hates X so Y subtracted X {x-y} and died";
+            string j=String.Format("P{1},i{0}",9,0);
+            Console.WriteLine(e+"\u000A"+f+"\u000A"+g+"\u000A"+h+"\u000A"+j);
+            Console.WriteLine(@"This is the last string of exercise {0}",x);
         }
     }
 }
