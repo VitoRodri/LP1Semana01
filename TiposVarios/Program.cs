@@ -14,9 +14,12 @@ namespace TiposVarios
             char zero='\u00D8';
             float e=3.49f;
             double f= 40.2e-30;
+            bool x=true;
+            bool y=false;
             Console.WriteLine("variaveis inteiras:"+a+","+b+","+c+","+d);
             Console.WriteLine("variaveis char:"+symbol+","+zero);
             Console.WriteLine("variaveis reais:"+e+","+f);
+            Console.WriteLine("variaveis booleanas:"+x+","+y);
 
         }
     }
